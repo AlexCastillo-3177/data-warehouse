@@ -1,0 +1,17 @@
+DOCUMENTO TÉCNICO — PROPUESTA DEL SISTEMA
+
+TABLAS SELECCIONADAS:
+- olist_orders_dataset.csv       → Órdenes (estados, fechas)
+- olist_order_items_dataset.csv  → Items (precios, envíos)
+- olist_products_dataset.csv     → Productos (categorías)
+
+JUSTIFICACIÓN DE NEGOCIO:
+Analizar el comportamiento de ventas y logística de un e-commerce
+brasileño permite identificar cuellos de botella en entregas,
+categorías más rentables y patrones de compra por región.
+Esta combinación es común en sistemas BI reales.
+
+PREGUNTAS ESTRATÉGICAS:
+1. ¿Cuáles son las 5 categorías de productos con mayor volumen de ventas?
+2. ¿Cuál es la distribución de estados de órdenes 
+   (delivered, shipped, cancelled, etc.)?
